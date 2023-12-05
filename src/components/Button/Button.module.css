@@ -1,0 +1,20 @@
+.button {
+    padding: 10px 20px;
+    color: var(--color-main);
+    border: 2px solid currentColor;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover:not(:disabled) {
+    background-color: var(--color-main);
+    color: white;
+}
+
+.button:disabled {
+    color: var(--color-main-light);
+    border: 1px solid currentColor;
+    /* color: var(--color-main);
+    border: 1px solid currentColor; */
+}

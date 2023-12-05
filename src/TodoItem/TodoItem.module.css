@@ -1,0 +1,13 @@
+.todoItem {
+    list-style-type: none;
+    border-top: 1px solid black;
+    padding-block: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
