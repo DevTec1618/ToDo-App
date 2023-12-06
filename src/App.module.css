@@ -1,5 +1,6 @@
 .todoCard {
-    width: 800px;
+    width: 80%;
+    max-width: 800px;
     background-color: white;
     border-radius: 15px;
     padding: 25px;
